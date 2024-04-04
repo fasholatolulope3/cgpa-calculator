@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+    min-width: 320px;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 5px 3px grey;
+}
+
+#header span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    clear: both;
+}
+
+#header h1 {
+    color: #FFC;
+    max-width: 700px;
+    float: left;
+    text-shadow: 2px 2px grey;
+    padding: 20px;
+    text-align: center;
+}
+
+#cont {
+    min-width: 300px;
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    margin-top: 100px;
+    clear: both;
+}
+
+
+fieldset {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 5px 0;
+    background-color: #FFC;
+    transition: all .7sec linear;
+}
+
+fieldset:last-child {
+    margin-bottom: 20px;
+}
+
+form label {
+    color: brown;
+    width: 100%;
+    margin-left: 3%;
+    float: left;
+    clear: both;
+}
+
+form #radiobtn label {
+    color: blue;
+    width: 30%;
+    margin-left: 3%;
+    clear: none;
+}
+
+form {
+    background-color: orange;
+    width: 92%;
+    max-width: 400px;
+    border-radius: 1px;
+    border-color: yellow;
+    padding: 10px 2%;
+    color: purple;
+    margin: 20px auto;
+    box-shadow: 0 0 5px 3px grey;
+}
+
+form input[type="text"],
+form input[type="checkbox"] {
+    width: 90%;
+    float: none;
+    padding: 4px 2%;
+    margin: 5px auto 0 auto;
+    color: blue;
+    background-color: white;
+}
+
+form input[type="submit"],
+[type="reset"] {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 120%;
+    margin: 10px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+
+form input[type="submit"]:hover,
+[type="reset"]:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 2%;
+    color: blue;
+    max-width: 90%;
+}
+
+@media screen and (max-width: 550px) {
+    #cont {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #cont {
+        margin-top: 170px;
+    }
+}
