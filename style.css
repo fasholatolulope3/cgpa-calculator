@@ -14,6 +14,14 @@
     left: 0;
     box-shadow: 0 0 5px 3px grey;
 }
+#header img {
+    position: absolute;
+    right: 100px;
+    margin-top: 5px;
+    height: 70px;
+    width: 80px;
+
+}
 
 #header span {
     position: absolute;
@@ -29,6 +37,16 @@
     text-shadow: 2px 2px grey;
     padding: 20px;
     text-align: center;
+}
+
+#header h2 {
+    color: #FFC;
+    max-width: 800px;
+    text-shadow: gray;
+    padding: 20px;
+    position: absolute;
+    right: 200px;
+    margin-top: 20px;
 }
 
 #cont {
