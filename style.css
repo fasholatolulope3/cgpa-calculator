@@ -8,12 +8,13 @@
 #header {
     width: 100%;
     min-width: 320px;
-    background-color: orange;
+    background-color: gray;
     position: fixed;
     top: 0;
     left: 0;
     box-shadow: 0 0 5px 3px grey;
 }
+
 #header img {
     position: absolute;
     right: 60px;
@@ -51,6 +52,7 @@
     margin-top: 30px;
     width: 100%;
 }
+
 #cont {
     min-width: 300px;
     width: 100%;
@@ -90,11 +92,11 @@ form #radiobtn label {
 }
 
 form {
-    background-color: orange;
+    background-color: gray;
     width: 92%;
     max-width: 400px;
     border-radius: 1px;
-    border-color: yellow;
+    border-color: gray;
     padding: 10px 2%;
     color: purple;
     margin: 20px auto;
