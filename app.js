@@ -9,9 +9,9 @@ function formsubmit() {
 
 function addbox(x) {
 
-    //var event = document.event.onkeyPress;
-    //var key = event.keyCode || event.which;		
-    //alert(key);
+    // var event = document.event.onkeyPress;
+    // var key = event.keyCode || event.which;
+    // alert(key);
 
     if (isNaN(x) && x.length > 0) { alert("Number of courses must be a number"); return }
     if (x.length > 0 && x != 0) {
